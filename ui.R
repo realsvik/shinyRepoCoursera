@@ -31,7 +31,7 @@ shinyUI(fluidPage(
       plotOutput("distPlot", height="800px")
       
      # textOutput("fast"),
-     # textOutput("slow")
+     
       
     )
   )
