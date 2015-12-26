@@ -25,6 +25,8 @@ shinyUI(fluidPage(
       span(", then parsed and finally gathered in a dataset, containing wine name, price, color, taste and year, where applicable."),
       span("On the below plot I show distribution of different sparkling wine varieties in a chosen price range."),
       br(),
+      span("It is slikely, that you see an error, before plots appear. This happens, because it takes a while for the data to get loaded an used in the controls, so plot can not have it in the first second. The error is gone as soon as data loads."),
+      br(),
       span(textOutput("console"), style = "color:black; font-weight:bold"),
       plotOutput("distPlot", height="800px")
       
